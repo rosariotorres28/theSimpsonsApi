@@ -38,7 +38,7 @@ const App = () => {
           <p className="my-0 text-btn-style">Obtener frase</p>
         </Button>
       </div>
-        {mostrarComponente}
+      {mostrarComponente}
     </div>
   );
 };
