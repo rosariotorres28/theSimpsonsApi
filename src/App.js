@@ -21,6 +21,7 @@ const App = () => {
     );
     const dato = await respuesta.json();
     setPersonaje(dato[0]);
+    console.log(dato)
     setTimeout(() => {
       setMostrarSpinner(false);
     }, 1500);
